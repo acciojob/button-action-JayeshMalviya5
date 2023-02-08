@@ -3,7 +3,7 @@ import "./../styles/App.css";
 
 function App() {
   const [renderClick, setState] = useState(false);
-  const renderIt = ()=>{
+  const renderIt = ()=>{ 
     setState(true);
   }
   return (
