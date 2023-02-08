@@ -8,7 +8,7 @@ function App() {
   }
   return (
     <div id="main">
-     {renderClick ? <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : null }
+     {renderClick ? <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : null }
       <button id="click" onClick={renderIt}>Click me</button>
     </div>
   );
